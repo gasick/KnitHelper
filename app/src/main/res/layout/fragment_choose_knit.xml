@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ChooseKnitFragment">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:columnCount="5">
+
+
+        <ImageView
+            android:id="@+id/ilsImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ils"
+            android:contentDescription="increase left-slanting" />
+        <ImageView
+            android:id="@+id/irsImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/irs"
+            android:contentDescription="increase right-slanting"/>
+        <ImageView
+            android:id="@+id/knitImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/knit"
+            android:contentDescription="knit" />
+        <ImageView
+            android:id="@+id/kitbImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kitb"
+            android:contentDescription="knit into the back" />
+        <ImageView
+            android:id="@+id/k2tlsImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/k2tls"
+            android:contentDescription="knit 2 toghether left-slanting" />
+        <ImageView
+            android:id="@+id/k2trsImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/k2trs"
+            android:contentDescription="knit 2 toghether right-slanting" />
+        <ImageView
+            android:id="@+id/k3tlsImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/k3tls"
+            android:contentDescription="increase right-slanting"/>
+        <ImageView
+            android:id="@+id/p2tlsImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/p2tls"
+            android:contentDescription="increase right-slanting" />
+        <ImageView
+            android:id="@+id/p2trsImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/p2trs"
+            android:contentDescription="increase right-slanting" />
+        <ImageView
+            android:id="@+id/p3tlsImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/p3tls"
+            android:contentDescription="increase right-slanting" />
+        <ImageView
+            android:id="@+id/pitbImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pitb"
+            android:contentDescription="increase right-slanting" />
+        <ImageView
+            android:id="@+id/purlImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/purl"
+            android:contentDescription="increase right-slanting" />
+    </android.support.v7.widget.GridLayout>
+
+</FrameLayout>
