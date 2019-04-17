@@ -13,77 +13,83 @@
 
 
         <ImageView
-            android:id="@+id/ilsImageView"
+            android:id="@+id/lsiImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ils"
-            android:contentDescription="increase left-slanting" />
+            android:src="@drawable/lsi"
+            android:contentDescription="@string/lsi" />
         <ImageView
-            android:id="@+id/irsImageView"
+            android:id="@+id/rsiImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/irs"
-            android:contentDescription="increase right-slanting"/>
+            android:src="@drawable/rsi"
+            android:contentDescription="@string/rsi"/>
         <ImageView
             android:id="@+id/knitImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/knit"
-            android:contentDescription="knit" />
+            android:contentDescription="@string/knit" />
         <ImageView
-            android:id="@+id/kitbImageView"
+            android:id="@+id/ktblImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/kitb"
-            android:contentDescription="knit into the back" />
+            android:src="@drawable/ktbl"
+            android:contentDescription="@string/ktbl" />
         <ImageView
-            android:id="@+id/k2tlsImageView"
+            android:id="@+id/sskImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/k2tls"
-            android:contentDescription="knit 2 toghether left-slanting" />
+            android:src="@drawable/ssk"
+            android:contentDescription="@string/ssk" />
         <ImageView
-            android:id="@+id/k2trsImageView"
+            android:id="@+id/k2togImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/k2trs"
-            android:contentDescription="knit 2 toghether right-slanting" />
+            android:src="@drawable/k2tog"
+            android:contentDescription="@string/k2tog" />
         <ImageView
-            android:id="@+id/k3tlsImageView"
+            android:id="@+id/s2kp2ImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/k3tls"
-            android:contentDescription="increase right-slanting"/>
+            android:src="@drawable/s2kp2"
+            android:contentDescription="@string/s2kp2"/>
         <ImageView
-            android:id="@+id/p2tlsImageView"
+            android:id="@+id/sspImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/p2tls"
-            android:contentDescription="increase right-slanting" />
+            android:src="@drawable/ssp"
+            android:contentDescription="@string/ssp" />
         <ImageView
-            android:id="@+id/p2trsImageView"
+            android:id="@+id/p2togImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/p2trs"
-            android:contentDescription="increase right-slanting" />
+            android:src="@drawable/p2tog"
+            android:contentDescription="@string/p2tog" />
         <ImageView
-            android:id="@+id/p3tlsImageView"
+            android:id="@+id/s2pp2ImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/p3tls"
-            android:contentDescription="increase right-slanting" />
+            android:src="@drawable/s2pp2"
+            android:contentDescription="@string/s2pp2" />
         <ImageView
-            android:id="@+id/pitbImageView"
+            android:id="@+id/ptblImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/pitb"
-            android:contentDescription="increase right-slanting" />
+            android:src="@drawable/ptbl"
+            android:contentDescription="@string/ptbl" />
         <ImageView
             android:id="@+id/purlImageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/purl"
-            android:contentDescription="increase right-slanting" />
+            android:contentDescription="@string/purl" />
+        <ImageView
+            android:id="@+id/yoImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yo"
+            android:contentDescription="@string/yarnover" />
     </android.support.v7.widget.GridLayout>
 
 </FrameLayout>

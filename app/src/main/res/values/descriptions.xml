@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="knit">Knit on the right side, Purl on the wrong side</string>
+    <string name="purl">Purl on the right side, Knit on the wrong side</string>
+    <string name="ssk">Slip, slip, knit(ssk)</string>
+    <string name="yarnover">Yarn over</string>
+    <string name="k2tog">a right-leaning decrease on the knit side</string>
+    <string name="p2tog">a right-leaning decrease on the purl side</string>
+    <string name="lsi">Left-slanting increase</string>
+    <string name="rsi">Right-slanting increase</string>
+    <string name="ktbl">Knit through back loop</string>
+    <string name="ptbl">Purl through back loop</string>
+    <string name="ssp">Slip, slip, purl(ssp)</string>
+    <string name="s2kp2">Slip 2 stitches together knitwise, knit 1, pass 2 slipped stitches over(centre double decrease)</string>
+    <string name="s2pp2">slip 2 stitches knitwise, return these 2 stitches to left needle and then slip them as if to p2tog through back loops, purl 1, pass 2 slipped stitches over purl stitch; centered double decrease</string>
+</resources>
