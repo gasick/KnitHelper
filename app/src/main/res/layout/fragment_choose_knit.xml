@@ -1,95 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/table"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ChooseKnitFragment">
-
-    <android.support.v7.widget.GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:columnCount="5">
+    tools:context=".ChooseKnitFragment"
+    android:stretchColumns="*">
 
 
-        <ImageView
-            android:id="@+id/lsiImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/lsi"
-            android:contentDescription="@string/lsi" />
-        <ImageView
-            android:id="@+id/rsiImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/rsi"
-            android:contentDescription="@string/rsi"/>
-        <ImageView
-            android:id="@+id/knitImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/knit"
-            android:contentDescription="@string/knit" />
-        <ImageView
-            android:id="@+id/ktblImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ktbl"
-            android:contentDescription="@string/ktbl" />
-        <ImageView
-            android:id="@+id/sskImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ssk"
-            android:contentDescription="@string/ssk" />
-        <ImageView
-            android:id="@+id/k2togImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/k2tog"
-            android:contentDescription="@string/k2tog" />
-        <ImageView
-            android:id="@+id/s2kp2ImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/s2kp2"
-            android:contentDescription="@string/s2kp2"/>
-        <ImageView
-            android:id="@+id/sspImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ssp"
-            android:contentDescription="@string/ssp" />
-        <ImageView
-            android:id="@+id/p2togImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/p2tog"
-            android:contentDescription="@string/p2tog" />
-        <ImageView
-            android:id="@+id/s2pp2ImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/s2pp2"
-            android:contentDescription="@string/s2pp2" />
-        <ImageView
-            android:id="@+id/ptblImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ptbl"
-            android:contentDescription="@string/ptbl" />
-        <ImageView
-            android:id="@+id/purlImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/purl"
-            android:contentDescription="@string/purl" />
-        <ImageView
-            android:id="@+id/yoImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/yo"
-            android:contentDescription="@string/yarnover" />
-    </android.support.v7.widget.GridLayout>
 
-</FrameLayout>
+</android.support.v7.widget.RecyclerView>

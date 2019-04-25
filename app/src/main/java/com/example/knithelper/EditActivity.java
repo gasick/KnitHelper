@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class EditActivity extends AppCompatActivity {
 
@@ -26,10 +27,9 @@ public class EditActivity extends AppCompatActivity {
         Intent intent = getIntent();
         int rows = Integer.parseInt(intent.getStringExtra("rows"));
         int columns = Integer.parseInt(intent.getStringExtra("columns"));
-
-
-
     }
+
+
 
 
     private class SectionPagerAdapter extends FragmentPagerAdapter {

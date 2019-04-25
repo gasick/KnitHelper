@@ -58,7 +58,11 @@ public class PatternDraw extends View {
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         Log.i("TOUCH", "test");
+        Toast toast = Toast.makeText(getContext(),
+                event.toString(), Toast.LENGTH_SHORT);
+        toast.show();
         return super.onTouchEvent(event);
+
 
 
     }
