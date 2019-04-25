@@ -24,6 +24,7 @@ import android.widget.TextView;
  */
 public class ChooseKnitFragment extends Fragment  {
 
+
     public ChooseKnitFragment() {
         // Required empty public constructor
     }
@@ -32,8 +33,9 @@ public class ChooseKnitFragment extends Fragment  {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        /*
+
         RecyclerView stitchesRecycler = (RecyclerView)inflater.inflate(R.layout.fragment_choose_knit, container,false);
+
 
         CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(R.string.k2tog, R.drawable.k2tog);
         stitchesRecycler.setAdapter(adapter);
