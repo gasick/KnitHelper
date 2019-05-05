@@ -21,7 +21,8 @@ public class Knit {
             new Knit("s2pp2", R.drawable.s2pp2,R.string.s2pp2),
             new Knit("ssk", R.drawable.ssk,R.string.ssk),
             new Knit("ssp", R.drawable.ssp,R.string.ssp),
-            new Knit("yo", R.drawable.yo,R.string.yo)
+            new Knit("yo", R.drawable.yo,R.string.yo),
+
 
     };
 
