@@ -8,12 +8,30 @@ public class Knit {
     private String name;
     private int image;
     private int description;
+    public static final Knit[] knits = {
+            new Knit("k2tog", R.drawable.k2tog,R.string.k2tog),
+            new Knit("knit", R.drawable.knit,R.string.knit),
+            new Knit("ktbl", R.drawable.ktbl,R.string.ktbl),
+            new Knit("lsi", R.drawable.lsi,R.string.lsi),
+            new Knit("p2tog", R.drawable.p2tog,R.string.p2tog),
+            new Knit("ptbl", R.drawable.ptbl,R.string.ptbl),
+            new Knit("purl", R.drawable.purl,R.string.purl),
+            new Knit("rsi", R.drawable.rsi,R.string.rsi),
+            new Knit("s2kp2", R.drawable.s2kp2,R.string.s2kp2),
+            new Knit("s2pp2", R.drawable.s2pp2,R.string.s2pp2),
+            new Knit("ssk", R.drawable.ssk,R.string.ssk),
+            new Knit("ssp", R.drawable.ssp,R.string.ssp),
+            new Knit("yo", R.drawable.yo,R.string.yo)
+
+    };
 
     public Knit(String name, int image, int description){
         this.name = name;
         this.image = image;
         this.description = description;
     }
+
+
 
     public String getName(){
         return this.name;
@@ -39,15 +57,8 @@ public class Knit {
         this.description = description;
     }
 
-    public static List<Knit> getKnitsList(){
-        List<Knit> knits = new ArrayList<>();
-        knits.add(new Knit("k2tog", R.drawable.k2tog, R.string.k2tog));
-        knits.add(new Knit("knit", R.drawable.knit, R.string.knit));
-        knits.add(new Knit("ktbl", R.drawable.ktbl, R.string.ktbl));
-        knits.add(new Knit("lsi", R.drawable.lsi, R.string.lsi));
-        knits.add(new Knit("p2tog", R.drawable.p2tog, R.string.p2tog));
-        return knits;
+
+    public int getImageResourceId() {
+        return image;
     }
-
-
 }
