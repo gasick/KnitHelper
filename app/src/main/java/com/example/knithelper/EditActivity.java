@@ -32,6 +32,7 @@ public class EditActivity extends AppCompatActivity {
 
 
 
+    //Использование пейджера для меню выбора кисти, цвета и меню программы.
     private class SectionPagerAdapter extends FragmentPagerAdapter {
         public SectionPagerAdapter(FragmentManager fm){
             super(fm);
