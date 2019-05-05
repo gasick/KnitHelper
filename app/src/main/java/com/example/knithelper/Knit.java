@@ -21,10 +21,10 @@ public class Knit {
             new Knit("s2pp2", R.drawable.s2pp2,R.string.s2pp2),
             new Knit("ssk", R.drawable.ssk,R.string.ssk),
             new Knit("ssp", R.drawable.ssp,R.string.ssp),
-            new Knit("yo", R.drawable.yo,R.string.yo),
-
-
+            new Knit("yo", R.drawable.yo,R.string.yo)
     };
+
+    enum knit{ k2tog, knit, ktbl, lsi, p2tog,  ptbl,purl,rsi,s2kp2,s2pp2,ssk,ssp,yo}
 
     public Knit(String name, int image, int description){
         this.name = name;
