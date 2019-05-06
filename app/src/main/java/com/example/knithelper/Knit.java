@@ -31,7 +31,55 @@ public class Knit {
     };
 
     //Создание енума для типа петель
-    enum knit{ k2tog, knit, ktbl, lsi, p2tog,  ptbl,purl,rsi,s2kp2,s2pp2,ssk,ssp,yo}
+    public enum knit{
+        k2tog, knit, ktbl, lsi, p2tog,  ptbl,purl,rsi,s2kp2,s2pp2,ssk,ssp,yo, empty;
+
+        public static knit getKnitValue(String str) {
+            return knit.valueOf(str.trim());
+        }
+
+        //на запрос пользователя о том, что это за Cell
+        //возвращаем значение рисунка png из drawable
+        public static int getRDrawablePNG(Knit.knit k) {
+            switch (k) {
+                case k2tog: return R.drawable.k2tog;
+                case ktbl: return R.drawable.ktbl;
+                case lsi: return R.drawable.lsi;
+                case p2tog: return R.drawable.p2tog;
+                case ptbl: return R.drawable.ptbl;
+                case rsi: return R.drawable.rsi;
+                case purl: return R.drawable.purl;
+                case knit: return R.drawable.knit;
+                case s2kp2: return R.drawable.s2kp2;
+                case s2pp2: return R.drawable.s2pp2;
+                case ssk: return R.drawable.ssk;
+                case ssp: return R.drawable.ssp;
+                case yo: return R.drawable.yo;
+                default: return -1;
+            }
+        }
+
+        public static String getCellString(Knit.knit k) {
+            switch (k) {
+                case k2tog: return "k2tog";
+                case knit: return "knit";
+                case ktbl: return "ktbl";
+                case lsi: return "lsi";
+                case p2tog: return "p2tog";
+                case ptbl: return "ptbl";
+                case purl: return "purl";
+                case rsi: return "rsi";
+                case s2kp2: return "s2kp2";
+                case s2pp2: return "s2pp2";
+                case ssk: return "ssk";
+                case ssp: return "ssp";
+                case yo: return "yo";
+                default: return "empty";
+            }
+        }
+
+
+    }
 
 
     //Конструктор петли: имя, изображение, описание
@@ -40,6 +88,8 @@ public class Knit {
         this.image = image;
         this.description = description;
     }
+
+
 
 
 
@@ -54,4 +104,5 @@ public class Knit {
     public int getImageResourceId() {
         return image;
     }
+
 }

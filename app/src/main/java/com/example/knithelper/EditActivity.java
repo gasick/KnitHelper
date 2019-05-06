@@ -1,6 +1,8 @@
 package com.example.knithelper;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -12,11 +14,13 @@ import android.view.View;
 
 public class EditActivity extends AppCompatActivity {
 
+    Pattern pattern;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit);
-
+        Bitmap testBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.knit);
 
         //Создаем pager для отображения меню рисования
         SectionPagerAdapter pagerAdapter = new SectionPagerAdapter(getSupportFragmentManager());
@@ -27,6 +31,7 @@ public class EditActivity extends AppCompatActivity {
         Intent intent = getIntent();
         int rows = Integer.parseInt(intent.getStringExtra("rows"));
         int columns = Integer.parseInt(intent.getStringExtra("columns"));
+        pattern = new Pattern(rows, columns, testBitmap.getWidth(),testBitmap.getHeight());
     }
 
 
